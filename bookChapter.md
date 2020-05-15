@@ -2,7 +2,7 @@
 
 *Line sampling* is a reliability method developed in the late 90s (<font color="red">check</font>) for the purpose of computing the probability of rare events in a simulation model.
 
-Monte Carlo simulation methods have been incredibly successful in solving the probability forward propagation problem for numerous reasons, including the ability to deal with high-dimensional problems, and highly non-linear black-box problems. The sampling generating mechanism draw variates of the underlying process' probability distribution turning the mathematical problem into a simulation one. While this mechanism is the key to the success of this methods, it also introduces a limitation: because the underlying process is simulated, rare events may require an enormous number of replicates, which can make the methods inefficient.
+Monte Carlo simulation methods have been hugely successful in solving the probability forward propagation problem for numerous reasons, including the ability to deal with high-dimensional problems, and highly non-linear black-box problems. The sampling generating mechanism draw variates of the underlying process' probability distribution turning the mathematical problem into a simulation one. While this mechanism is the key to the success of this methods, it also introduces a limitation: because the underlying process is simulated, rare events may require an enormous number of replicates, which can make the methods inefficient.
 
 Importance sampling and other advanced sampling schemes were developed to defeat this limitation, by tricking the sampling generating mechanism to produce samples in the targeted regions of the probability space where the rare event holds  with very low probability of occurrence.
 
