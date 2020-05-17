@@ -14,3 +14,9 @@ With non-standard implementations, *line sampling* has demonstrated to be a stro
 such as subset simulation and importance sampling.
 
 In this book chapter we review the state-of-the-art software and methods that implement this powerful reliability simulation tool, and show their performance when applied to famously difficult reliability test case problems (<font color="red">ref</font>).
+
+
+
+https://rprepo.readthedocs.io/en/latest/
+
+https://en.wikipedia.org/wiki/Line_sampling
