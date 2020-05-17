@@ -1,4 +1,4 @@
-## The state of the art of line sampling simulation.
+## Line sampling simulation: recent advancements and applications
 
 *Line sampling* is popular reliability method [1] derived from early development based on directional sampling [2-4] for the purpose of computing efficiently the probability of rare events in a simulation model. .
 
