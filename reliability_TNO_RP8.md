@@ -41,7 +41,7 @@ The random variables are mutually independent.
 
 <hr>
 
-[Xu2018] https://rprepo.readthedocs.io/en/latest/references.html#xu2018
+[Xu2018]: https://rprepo.readthedocs.io/en/latest/references.html#xu2018
 
 
 ```python
@@ -127,10 +127,6 @@ g8(*x)
 ```
 
 
-    array([-276.71512985])
-
-
-
 ## Let's dive into the solution of the reliability problem
 
 Line sampling requires an important direction to work. Let's compute it using the gradient in the standard normal space.
@@ -155,10 +151,6 @@ print(alpha)
 LS = ls.LineSampling(lines=20,alpha=alpha,linegrid=[2,3,4,5])
 ```
 
-
-```python
-# cl,cr,data = ls.do_line_zero(LS,RP8,C8,additional=6)
-```
 
 # Perfom the analysis with line sampling
 
