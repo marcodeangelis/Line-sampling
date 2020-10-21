@@ -33,6 +33,8 @@ print(RP14)
 Name: RP14
 Link: https://rprepo.readthedocs.io/en/latest/reliability_problems.html#sec-rp-14
 
+![png](reliability_TNO_RP14/formula_1.png)
+
 ```python
 alpha = ls.initialiseAlpha(RP14,C14,gradient=True)
 print(alpha)
