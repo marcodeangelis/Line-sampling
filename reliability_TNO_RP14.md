@@ -12,7 +12,7 @@ challenge set_1
 | ----------------------------------------------------- | ---------------|
 | Type                                                  | Symbolic       |
 | Number of random variables                            | 5              |
-| Failure probability, $P_\mathrm{f}$                   | ~~7.52e-3~~ 5.69e-3|
+| Failure probability, $P_\mathrm{f}$                   | ~~7.52e-3~~ 5.69e-4|
 | Reliability index, $\beta=-\Phi^{-1}(P_\mathrm{f})$   | ~~2.42~~ 3.25  |
 | Number of performance functions                       | 1              |
 | Continuity                                            | $\geq C^1$     |
