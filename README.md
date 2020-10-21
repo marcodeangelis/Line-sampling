@@ -38,7 +38,7 @@ alpha = ls.initialiseAlpha(RP14,C14,gradient=True)
 print(alpha)
 ```
 
-    [-0.5615302239044386, -0.053660476608837736, 0.3804346001443178, 0.0004356175870643556, 0.7328531136198401]
+    [-0.36487337,  0.03357331,  0.84283305,  0.07948445,  0.38607633]
 
 ```python
 LS = ls.LineSampling(lines=50,alpha=alpha,linegrid=[0,1,2,3,4,5,6,7])
@@ -52,7 +52,7 @@ print('total number of runs: %i'%RP14.evaluations())
     failure probability:  [3.41e-04, 1.11e-03]
     reliability index:    [3.05884, 3.39638]
     coeff. of variation:  0.110849
-    total number of runs: 6284
+    total number of runs: 166
 
 
 
@@ -61,5 +61,4 @@ LS.plot(data=LSdata,code=1)
 ```
 
 
-![png](reliability_TNO_RP14/output_26_0.png)
 ![png](reliability_TNO_RP14/output_26_0.png)
