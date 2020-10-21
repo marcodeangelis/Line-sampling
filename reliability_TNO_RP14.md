@@ -22,6 +22,8 @@ challenge set_1
 
 $$g({\bf X}) = X_1 - \frac{32}{\pi X_2^3}\ \sqrt{\frac{X_3^2 X_4^2}{16} + X_5^2}$$
 
+![png](reliability_TNO_RP14/formula_1.png)
+
 ## Random variables
 
 The parametrization of distributions follows that of in.
