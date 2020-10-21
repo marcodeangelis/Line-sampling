@@ -104,17 +104,6 @@ C8.marginals()
 
 
 
-
-    (X1 ~ Lognormal(t1=4.78252, t2=0.0997513),
-     X2 ~ Lognormal(t1=4.78252, t2=0.0997513),
-     X3 ~ Lognormal(t1=4.78252, t2=0.0997513),
-     X4 ~ Lognormal(t1=4.78252, t2=0.0997513),
-     X5 ~ Lognormal(t1=3.89241, t2=0.198042),
-     X6 ~ Lognormal(t1=3.66927, t2=0.198042))
-
-
-
-
 ```python
 # A sample of the copula function can be obtained as follows:
 x,z,u = C8.sample(N=1,seed=30) # shape of x: (6, N), void produces N=100 samples  
@@ -127,10 +116,6 @@ print(C8.map2std(x))
 # [array([-1.21348165]), array([1.96858688]), array([0.54451422]), array([-1.36668842]), array([1.30673409]), array([0.14566481])]
 ```
 
-    [array([105.25917306]), array([139.06301718]), array([108.38469138]), array([125.14280585]), array([48.06097175]), array([41.65548149])]
-    [array([-1.26405266]), array([1.52790535]), array([-0.97071094]), array([0.47055962]), array([-0.10069672]), array([0.30379318])]
-
-
 
 ```python
 # 2. The performance function of the problem:
@@ -140,8 +125,6 @@ g8(*x)
 # returns:
 # array([-233.33485107])
 ```
-
-
 
 
     array([-276.71512985])
@@ -195,55 +178,10 @@ print('total number of runs: %i'%RP8.evaluations())
 
 
 
-```python
-from number.stats import IntervalDataset
-import number.stats as stats
-PF = IntervalDataset(pfs)
-```
-
-
-```python
-PF.plot(mean=True)
-```
-
-    No handles with labels found to put in legend.
-
-
-
-![png](reliability_TNO_RP8/output_17_1.png)
-
-
-
-```python
-stats.upperBoundVariance_BruteForce(PF)
-```
-
-    The brute force algorithm is set to do 1048576 iterations. Are you sure you wanna proceed?
-
-
-
-
-
-    (4.774793587239734e-07,
-     (1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0))
-
-
-
-
-```python
-((4.774793587239734e-07)**0.5)
-```
-
-
-
-
-    0.0006909988123896982
-
-
 
 ## Verifying LS results
 
-By doing the analysis on the line through the origin of the standard space, we can compute the euclidean norm of the closest point to the origin.
+By doing the analysis on the line through the origin of the standard space, we can compute the Euclidean norm of the closest point to the origin.
 
 
 ```python
