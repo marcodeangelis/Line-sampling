@@ -1,4 +1,4 @@
-# RP8 reliability problem statement
+# RP8 reliability problem
 
 | `set_id` | `problem_id` |
 | -------- | ------------ |
