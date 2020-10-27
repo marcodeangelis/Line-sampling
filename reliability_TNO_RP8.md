@@ -1,6 +1,4 @@
-# Solution of the TNO black box reliability challenge with Line Sampling
-
-# RP8 problem statement
+# RP8 reliability problem statement
 
 | `set_id` | `problem_id` |
 | -------- | ------------ |
