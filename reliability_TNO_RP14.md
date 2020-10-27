@@ -129,7 +129,7 @@ LS.plotLines3([LSdata,LSdata2])
 
 
 ```python
-LS.plot(data=LSdata,code=1)
+LS.plot([LSdata],space='X')
 ```
 
 
@@ -314,7 +314,7 @@ print('total number of runs: %i'%RP14.evaluations())
 
 
 ```python
-LS.plot(data=LSdata,code=1)
+LS.plot([LSdata],space='X')
 ```
 
 
@@ -323,7 +323,7 @@ LS.plot(data=LSdata,code=1)
 
 
 ```python
-LS.plot(data=LSdata,code=2)
+LS.plot([LSdata],space='Z')
 ```
 
 
