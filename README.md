@@ -27,9 +27,24 @@ de Angelis, Marco, Edoardo Patelli, and Michael Beer. "Advanced line sampling fo
 [OpenCossan]:http://www.cossan.co.uk
 [10.1016/j.strusafe.2014.10.002]:https://doi.org/10.1016/j.strusafe.2014.10.002
 
+# Black-box reliability challenge problems
 
-## TNO challenge problem 14
-### Example problem 
+[RP8]   - Linear performance function with six lognormal variables.
+
+[RP14]  - Non-linear performance function with five random variables. 
+
+[RP22]  - Quadratic function with mixed term, convex.
+
+[RP24]  - Non-linear performance with two normal random variables.
+
+
+[RP8]:https://github.com/marcodeangelis/Line-sampling/blob/master/reliability_TNO_RP8.md
+[RP14]:https://github.com/marcodeangelis/Line-sampling/blob/master/reliability_TNO_RP14.md
+[RP22]:https://github.com/marcodeangelis/Line-sampling/blob/master/reliability_TNO_RP22.md
+[RP24]:https://github.com/marcodeangelis/Line-sampling/blob/master/reliability_TNO_RP24.md
+
+
+## TNO example problem 14
 
 
 ```python
