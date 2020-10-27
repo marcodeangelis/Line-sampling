@@ -1,4 +1,4 @@
-# RP22 problem statement
+# RP22 reliability problem 
 
 | `set_id` | `problem_id` |
 | -------- | ------------ |
