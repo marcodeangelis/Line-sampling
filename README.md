@@ -11,10 +11,25 @@ If you find this code useful for your research and decide to use it in a paper p
 
 de Angelis, Marco, Edoardo Patelli, and Michael Beer. "Advanced line sampling for efficient robust reliability analysis." Structural safety 52 (2015): 170-182. DOI: [10.1016/j.strusafe.2014.10.002]
 
+``` bibtex
+@article{deangelis2015,
+  title={Advanced line sampling for efficient robust reliability analysis},
+  author={de Angelis, Marco and Patelli, Edoardo and Beer, Michael},
+  journal={Structural safety},
+  volume={52},
+  pages={170--182},
+  year={2015},
+  publisher={Elsevier}
+}
+```
+
 
 [OpenCossan]:http://www.cossan.co.uk
 [10.1016/j.strusafe.2014.10.002]:https://doi.org/10.1016/j.strusafe.2014.10.002
 
+
+## TNO challenge problem 14
+### Example problem 
 
 
 ```python
