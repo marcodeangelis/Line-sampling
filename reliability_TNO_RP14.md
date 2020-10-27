@@ -12,7 +12,7 @@ challenge set_1
 | ----------------------------------------------------- | ---------------|
 | Type                                                  | Symbolic       |
 | Number of random variables                            | 5              |
-| Failure probability, $P_\mathrm{f}$                   | ~~7.52e-3~~ 5.69e-3|
+| Failure probability, $P_\mathrm{f}$                   | ~~7.52e-3~~ 5.69e-4|
 | Reliability index, $\beta=-\Phi^{-1}(P_\mathrm{f})$   | ~~2.42~~ 3.25  |
 | Number of performance functions                       | 1              |
 | Continuity                                            | $\geq C^1$     |
@@ -21,6 +21,8 @@ challenge set_1
 ## Performance function
 
 $$g({\bf X}) = X_1 - \frac{32}{\pi X_2^3}\ \sqrt{\frac{X_3^2 X_4^2}{16} + X_5^2}$$
+
+![png](reliability_TNO_RP14/formula_1.png)
 
 ## Random variables
 
