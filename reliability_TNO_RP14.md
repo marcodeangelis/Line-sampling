@@ -1,4 +1,4 @@
-# RP14 problem statement
+# RP14 reliability problem 
 
 | `set_id` | `problem_id` |
 | -------- | ------------ |
