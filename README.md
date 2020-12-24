@@ -1,4 +1,4 @@
-# Line-Sampling
+# Line-sampling
 
 
 This code is a port of the MATLAB LineSampling class from the OpenCossan generalised uncertainty quantification software. 
